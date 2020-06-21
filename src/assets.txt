@@ -1,0 +1,13 @@
+Sidebar icons
+briefcase My job feed solid
+user solid
+th-large solid
+bookmark solid
+cog solid
+
+Header icons color #0c1518
+search solid
+bell solid
+envelope solid
+user solid
+ellipsis-h
