@@ -1,0 +1,44 @@
+.tabViewHeader {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 3px 5px 5px 0px rgba(223, 226, 231, 1);
+	padding: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.headerLeft {
+	display: flex;
+	align-items: center;
+}
+.avatar {
+	border-radius: 50%;
+	cursor: pointer;
+	height: 10rem;
+	margin-right: 2rem;
+	object-fit: cover;
+	width: 10rem;
+}
+.title {
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.6;
+	margin: 0;
+}
+.filename {
+	color: #000103;
+	margin: 0;
+}
+.hidden {
+	display: none;
+}
+.buttonUpload {
+	border: 2px solid #a7addf;
+	border-radius: 8px;
+	color: #020003;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	padding: 1rem 2.5rem;
+	text-align: center;
+}

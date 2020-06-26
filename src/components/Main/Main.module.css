@@ -1,6 +1,17 @@
 .main {
 	padding: 4rem;
+	height: calc(100vh - 8rem);
+	overflow: auto;
 	display: grid;
-	grid-template-columns: 30% 70%;
-	column-gap: 1rem;
+	grid-template-columns: 30% 1fr;
+	column-gap: 3rem;
+	align-items: start;
+}
+.main::-webkit-scrollbar {
+	height: 1rem;
+	width: 0.6rem;
+}
+.main::-webkit-scrollbar-thumb {
+	background: #455cc7;
+	border-radius: 2.5px;
 }

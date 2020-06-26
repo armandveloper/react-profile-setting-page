@@ -1,10 +1,13 @@
 import React from 'react';
 import styles from './Main.module.css';
+import TabContainer from '../TabContainer/TabContainer';
+import TabView from '../TabView/TabView';
 
 function Main() {
 	return (
 		<main className={styles.main}>
-			<h2>Main content</h2>
+			<TabContainer />
+			<TabView />
 		</main>
 	);
 }

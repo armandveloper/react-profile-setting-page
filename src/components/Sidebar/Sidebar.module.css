@@ -5,6 +5,7 @@
 	flex-basis: 5.5rem;
 	width: 5.5rem;
 	transition: flex-basis 0.5s;
+	overflow: hidden;
 }
 .navBrand,
 .navBrandMini {

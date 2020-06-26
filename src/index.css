@@ -37,3 +37,6 @@ button:focus {
 	overflow: hidden;
 	display: flex;
 }
+.tab-view {
+	margin-bottom: 4rem;
+}
